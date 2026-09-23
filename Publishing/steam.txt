@@ -1,0 +1,25 @@
+[h1]Hemogen Floor[/h1]
+
+Ever wanted to build with blood of your enemies?
+
+[h2]Features[/h2]
+
+Structures built with blood (of your enemies), costs 5 hemogen packs and 1 steel.
+
+[list]
+    [*]Hemogen floor, glowing
+    [*]Hemogen floor, dark
+[/list]
+
+[img=https://i.imgur.com/v7Ab4Ye.png]
+
+[hr][/hr]
+
+[url=https://github.com/zwei2stein/hemogenfloor-mod/]Source Code[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3651274426]My Other Mods[/url]
+
+[hr][/hr]
+
+[h2]Thanks[/h2]
+
+Many thanks to the RimWorld Modding Discord for their help.

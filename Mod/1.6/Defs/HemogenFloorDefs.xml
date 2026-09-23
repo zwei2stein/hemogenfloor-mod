@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <TerrainDef ParentName="FloorBase">
+        <defName>HemogenFloor_FloorGlowy</defName>
+        <label>hemogen floor (glowing)</label>
+        <description>Floor made out of collected hemogen. It has a fascinating structure that catches the eye. This floor also glows.</description>
+        <texturePath>Terrains/HemogenFloor_Floor</texturePath>
+        <!-- Vanilla Pollution Stone -->
+        <pollutionOverlayTexturePath>Terrain/Surfaces/RoughStonePollutionOverlay</pollutionOverlayTexturePath>
+        <pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughLinearAdd</pollutionShaderType>
+        <pollutionColor>(1, 1, 1, 0.43)</pollutionColor>
+        <pollutionOverlayScale>(0.66, 0.66)</pollutionOverlayScale>
+        <!-- Vanilla Pollution Stone -->
+        <isPaintable>false</isPaintable>
+        <edgeType>Hard</edgeType>
+        <renderPrecedence>335</renderPrecedence>
+        <pathCost>0</pathCost>
+        <statBases>
+            <WorkToBuild>1100</WorkToBuild>
+            <Beauty>6</Beauty>
+            <BeautyOutdoors>6</BeautyOutdoors>
+            <Cleanliness>0.2</Cleanliness>
+            <CleaningTimeFactor>0.9</CleaningTimeFactor>
+        </statBases>
+        <researchPrerequisites>
+            <li>Deathrest</li>
+        </researchPrerequisites>
+        <costList>
+            <HemogenPack>5</HemogenPack>
+            <Steel>1</Steel>
+        </costList>
+        <constructEffect>ConstructMetal</constructEffect>
+        <affordances>
+            <li>Light</li>
+            <li>Medium</li>
+            <li>Heavy</li>
+        </affordances>
+        <fertility>0</fertility>
+        <glowRadius>3</glowRadius>
+        <glowColor>(192,77,77,0)</glowColor>
+        <filthAcceptanceMask>
+            <li>None</li>
+        </filthAcceptanceMask>
+        <takeFootprints>false</takeFootprints>
+        <tags>
+            <li>FineFloor</li>
+        </tags>
+        <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+    </TerrainDef>
+
+    <TerrainDef ParentName="FloorBase">
+        <defName>HemogenFloor_FloorDark</defName>
+        <label>hemogen floor (dark)</label>
+        <description>Floor made out of collected hemogen. It has a fascinating structure that catches the eye.</description>
+        <texturePath>Terrains/HemogenFloor_Floor</texturePath>
+        <!-- Vanilla Pollution Stone -->
+        <pollutionOverlayTexturePath>Terrain/Surfaces/RoughStonePollutionOverlay</pollutionOverlayTexturePath>
+        <pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughLinearAdd</pollutionShaderType>
+        <pollutionColor>(1, 1, 1, 0.43)</pollutionColor>
+        <pollutionOverlayScale>(0.66, 0.66)</pollutionOverlayScale>
+        <!-- Vanilla Pollution Stone -->
+        <isPaintable>false</isPaintable>
+        <edgeType>Hard</edgeType>
+        <renderPrecedence>335</renderPrecedence>
+        <pathCost>0</pathCost>
+        <statBases>
+            <WorkToBuild>1100</WorkToBuild>
+            <Beauty>6</Beauty>
+            <BeautyOutdoors>6</BeautyOutdoors>
+            <Cleanliness>0.2</Cleanliness>
+            <CleaningTimeFactor>0.9</CleaningTimeFactor>
+        </statBases>
+        <researchPrerequisites>
+            <li>Deathrest</li>
+        </researchPrerequisites>
+        <costList>
+            <HemogenPack>5</HemogenPack>
+            <Steel>1</Steel>
+        </costList>
+        <constructEffect>ConstructMetal</constructEffect>
+        <affordances>
+            <li>Light</li>
+            <li>Medium</li>
+            <li>Heavy</li>
+        </affordances>
+        <fertility>0</fertility>
+        <filthAcceptanceMask>
+            <li>None</li>
+        </filthAcceptanceMask>
+        <takeFootprints>false</takeFootprints>
+        <tags>
+            <li>FineFloor</li>
+        </tags>
+        <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+    </TerrainDef>
+    
+</Defs>
